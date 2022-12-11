@@ -1,0 +1,73 @@
+.button{
+    background-color: #556c31;
+    border: 1px solid black;
+    color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.button1{
+    background-color:yellow;
+    border: 1px solid black;
+    color:antiquewhite;
+    padding:10px;
+}
+.button2{
+    background-color:yellow;
+    border: 1px solid black;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 15px;
+}
+.button3{
+    background-color:rgb(191, 0, 255);
+    border: 1px solid black;
+    color:antiquewhite;
+    padding:10px;
+    border-radius: 15px;
+    transition-duration: .1s;
+}
+.button3:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+table,th,td{
+   
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+th{
+    height:50px;
+
+    
+}
+
+td{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+tr:hover{
+    background-color: cornflowerblue;
+}
+
+
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style-type:upper-alpha;
+    list-style-image: url(wp1923017-acer-predator-helios-300-wallpapers.jpg);
+}
+
+

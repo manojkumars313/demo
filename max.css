@@ -1,0 +1,122 @@
+body,html{
+    background-image: url(sharadesert.jpg);
+    height: 100%;
+
+   
+}
+.b{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-template-rows: ;
+    gap: 10px;
+    width: 640px;
+    position: absolute;
+    right:50px;
+    
+ 
+    height: 500px;
+    padding: 10px;
+    border: 1px solid black;
+}
+b > div{
+   
+    height: 950px;
+ 
+    border-radius: 15px;
+    
+}
+
+.div1{
+    width: 240px;
+    height: 250px;
+    background-image: url(pic-1.png);
+    border-radius: 15px;
+   
+    color: white;
+   
+    box-sizing: border-box;
+  
+    line-height: 30px;
+    margin:20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.div2{
+    width: 240px;
+    height: 250px;
+    background-image: url(pic-1.png);
+    border-radius: 15px;
+    margin:20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+   
+    line-height: 30px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.div3{
+    width: 240px;
+    height: 250px;
+    background-image: url(pic-1.png);
+    border-radius: 15px;
+    margin:20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+   
+    line-height: 30px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+.div4{
+    width: 240px;
+    height: 250px;
+    background-image: url(pic-1.png);
+    border-radius: 15px;
+    margin:20px;
+    color: white;
+    padding-left: 30px;
+    box-sizing: border-box;
+  
+    line-height: 30px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@media  screen and (max-width: 468px) {
+    /* For mobile phones: */
+  .div1 {
+
+      width: 100%;
+      margin: 20px;
+    }
+    .b{
+        grid-template-columns: none;
+        align-items: center;
+    }
+  }
